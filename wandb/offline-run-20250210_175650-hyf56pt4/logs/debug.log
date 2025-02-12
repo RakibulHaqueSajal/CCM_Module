@@ -1,0 +1,24 @@
+2025-02-10 17:56:50,358 INFO    MainThread:1420608 [wandb_setup.py:_flush():68] Current SDK version is 0.19.6
+2025-02-10 17:56:50,358 INFO    MainThread:1420608 [wandb_setup.py:_flush():68] Configure stats pid to 1420608
+2025-02-10 17:56:50,358 INFO    MainThread:1420608 [wandb_setup.py:_flush():68] Loading settings from /home/collab/rakibul/.config/wandb/settings
+2025-02-10 17:56:50,358 INFO    MainThread:1420608 [wandb_setup.py:_flush():68] Loading settings from /scratch_hd/channel clustering/TimeSeriesCCM/wandb/settings
+2025-02-10 17:56:50,359 INFO    MainThread:1420608 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-02-10 17:56:50,359 INFO    MainThread:1420608 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /scratch_hd/channel clustering/TimeSeriesCCM/wandb/offline-run-20250210_175650-hyf56pt4/logs/debug.log
+2025-02-10 17:56:50,359 INFO    MainThread:1420608 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /scratch_hd/channel clustering/TimeSeriesCCM/wandb/offline-run-20250210_175650-hyf56pt4/logs/debug-internal.log
+2025-02-10 17:56:50,359 INFO    MainThread:1420608 [wandb_init.py:init():756] calling init triggers
+2025-02-10 17:56:50,359 INFO    MainThread:1420608 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-10 17:56:50,359 INFO    MainThread:1420608 [wandb_init.py:init():789] starting backend
+2025-02-10 17:56:50,573 INFO    MainThread:1420608 [wandb_init.py:init():793] sending inform_init request
+2025-02-10 17:56:50,602 INFO    MainThread:1420608 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-02-10 17:56:50,602 INFO    MainThread:1420608 [wandb_init.py:init():808] backend started and connected
+2025-02-10 17:56:50,603 INFO    MainThread:1420608 [wandb_init.py:init():901] updated telemetry
+2025-02-10 17:56:50,617 INFO    MainThread:1420608 [wandb_init.py:init():936] communicating run to backend with 90.0 second timeout
+2025-02-10 17:56:50,712 INFO    MainThread:1420608 [wandb_init.py:init():994] starting run threads in backend
+2025-02-10 17:56:50,759 INFO    MainThread:1420608 [wandb_run.py:_console_start():2385] atexit reg
+2025-02-10 17:56:50,759 INFO    MainThread:1420608 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2025-02-10 17:56:50,759 INFO    MainThread:1420608 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2025-02-10 17:56:50,759 INFO    MainThread:1420608 [wandb_run.py:_redirect():2325] Redirects installed.
+2025-02-10 17:56:50,760 INFO    MainThread:1420608 [wandb_init.py:init():1036] run started, returning control to user process
+2025-02-10 17:56:50,760 INFO    MainThread:1420608 [wandb_run.py:_config_callback():1253] config_cb None None {'data': 'ETTm2', 'test_data': 'ETTm2', 'zero_shot_test': False, 'model': 'DLinear', 'root_path': './datasets/', 'data_path': 'ETTm2.csv', 'data_split': [34560, 11520, 11520], 'checkpoints': './checkpoints/', 'data_dim': 7, 'batch_size': 32, 'learning_rate': 0.001, 'train_epochs': 200, 'individual': 'c', 'beta': 0.3, 'in_len': 336, 'out_len': 96, 'dropout': 0.3, 'n_layers': 4, 'd_ff': 64, 'cluster_ratio': 0.3, 'd_model': 512, 'n_heads': 8, 'attn_dropout': 0.3, 'pre_norm': False, 'stride': 8, 'pretrain_head': False, 'patch_len': 16, 'max_seq_len': 1024, 'padding_patch': 'end', 'num_workers': 0, 'patience': 10, 'lradj': 'type1', 'itr': 1, 'save_pred': True, 'cuda': 2, 'freq': 't', 'test_data_path': 'ETTm2.csv', 'test_data_split': [34560, 11520, 11520], 'n_cluster': 3}
+2025-02-10 17:56:50,800 WARNING MsgRouterThr:1420608 [router.py:message_loop():75] message_loop has been closed

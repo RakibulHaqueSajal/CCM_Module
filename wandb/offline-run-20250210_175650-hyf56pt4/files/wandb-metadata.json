@@ -1,0 +1,57 @@
+{
+  "os":  "Linux-6.8.0-52-generic-x86_64-with-glibc2.17",
+  "python":  "CPython 3.8.20",
+  "startedAt":  "2025-02-11T00:56:50.602905Z",
+  "args":  [
+    "--model",
+    "DLinear",
+    "--data",
+    "ETTm2",
+    "--out_len",
+    "96",
+    "--in_len",
+    "336",
+    "--learning_rate",
+    "0.001",
+    "--batch_size",
+    "32",
+    "--individual",
+    "c"
+  ],
+  "program":  "main.py",
+  "codePath":  "main.py",
+  "git":  {
+    "remote":  "https://github.com/Graph-and-Geometric-Learning/TimeSeriesCCM.git",
+    "commit":  "e4769baa7f8457358eb9b4614af2de1fbfba2257"
+  },
+  "root":  "/scratch_hd/channel clustering/TimeSeriesCCM",
+  "host":  "rakibul",
+  "executable":  "/scratch_nvme/miniconda3/envs/timeenv/bin/python",
+  "codePathLocal":  "main.py",
+  "cpu_count":  16,
+  "cpu_count_logical":  24,
+  "gpu":  "NVIDIA RTX A5000",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "157396975616",
+      "used":  "42480201728"
+    }
+  },
+  "memory":  {
+    "total":  "134798581760"
+  },
+  "cpu":  {
+    "count":  16,
+    "countLogical":  24
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA RTX A5000",
+      "memoryTotal":  "25757220864",
+      "cudaCores":  8192,
+      "architecture":  "Ampere"
+    }
+  ],
+  "cudaVersion":  "12.6"
+}
